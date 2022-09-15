@@ -1,8 +1,7 @@
 :root {
-    /* Uncomment the code below and change the color scheme if desired https://www.w3schools.com/css/css3_variables.asp */
-    /* --primary: rgba(43, 91, 186, 0.6);
+    --primary: rgba(255,182,193, 0.6);
     --light: rgb(255,255,255);
-    --greyish: rgb(116 121 129 / 80%); */
+    --brownish: rgb(255,239,213 / 80%);
 }
 
 html, body {
@@ -73,14 +72,14 @@ img + p > span {
     display: block;
 }
 
-/* Explain in comments below what the media queries are doing in regards to different screen sizes */
+/* Screen has a maximum width of 992 pixels, and the root element's font size is set to 0.8*/
 
 @media screen and (max-width: 992px){
     .custom-text-cont p {
         font-size: 0.8rem;
     }
 }
-
+/* Screen has maximum width to 768 pixels, and the order of the flexible .custom-resume is set to 6% */
 @media screen and (max-width: 768px){
     .custom-resume > div > div:first-child {
         order: 2;
